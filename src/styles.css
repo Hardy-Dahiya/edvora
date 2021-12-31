@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #292929;
+}
+.dropDownFilter {
+  position: absolute;
+  width: 228px;
+  height: 275px;
+  left: 41px;
+  top: 43px;
+
+  background: #131313;
+  border-radius: 15px;
+}
+.filterHeading {
+  position: absolute;
+  left: 12.2%;
+  right: 91.22%;
+  top: 8.72%;
+  bottom: 88.15%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #a5a5a5;
+}
+.vector {
+  position: absolute;
+  width: 158px;
+  height: 0px;
+  left: 30px;
+  top: 70px;
+
+  border: 1px solid #cbcbcb;
+}
+.filterRectangel {
+  position: absolute;
+  width: 168.45px;
+  height: 37.5px;
+  left: 66px;
+  top: 138px;
+
+  background: #232323;
+  border-radius: 4.68775px;
+}
+.filterRectangelContent {
+  position: absolute;
+  width: 144px;
+  height: 22px;
+  left: 10px;
+  top: 8px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.polygone {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 4px;
+}
+.polygone1 {
+  position: absolute;
+  margin-left: 95px;
+  margin-top: 4px;
+}
+.polygone2 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 4px;
+}
+/* product box */
+.heading {
+  position: absolute;
+  width: 111px;
+  height: 42px;
+  left: 303px;
+  top: 43px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.87);
+  /* identical to box height */
+}
+.p1 {
+  position: absolute;
+  width: 97px;
+  height: 30px;
+  left: 303px;
+  top: 106px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.5);
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product_name {
+  position: absolute;
+  width: 160px;
+  height: 31px;
+  left: 305px;
+  top: 157px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+.border_line {
+  position: absolute;
+  width: 970px;
+  height: 0px;
+  left: 303px;
+  top: 210px;
+
+  border: 1px solid rgba(203, 203, 203, 0.5);
+}
+.product_container {
+  position: absolute;
+  width: 984px;
+  height: 190px;
+  left: 289px;
+  top: 230px;
+
+  background: #131313;
+  border-radius: 15px;
+}
+.product_card {
+  /* position: absolute; */
+  width: 210px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  background: #232323;
+  border-radius: 4.68775px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  align-items: right;
+}
+.product_card2 {
+  position: absolute;
+  top: 260px;
+  left: -4px;
+}
+.product_img {
+  /* position: absolute; */
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* background: url(https://www.researchgate.net/profile/Serge-Belongie/publication/221362362/figure/fig2/AS:305566657335318@1449864176496/Sample-of-in-vitro-images-for-different-products.png); */
+  border-radius: 5px;
+}
+.product_name2 {
+  /* position: absolute; */
+  width: 50%;
+  height: 16px;
+  margin-left: 100px;
+  margin-top: -65px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.brand_name {
+  /* position: absolute; */
+  width: 91px;
+  height: 14px;
+  margin-left: 100px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.price {
+  /* position: absolute; */
+  width: 78.96px;
+  height: 15px;
+  margin-left: 100px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+.location {
+  position: absolute;
+  width: 90px;
+  height: 14px;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.date {
+  /* position: absolute; */
+  width: 50%;
+  height: 14px;
+  margin-left: 100px;
+  margin-top: -10px;
+  font-family: SF Pro Rounded;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.decerption {
+  /* position: absolute; */
+  width: 183px;
+  height: 15px;
+  margin-left: 10px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.sliderNext {
+  position: absolute;
+  /* width: 10px; */
+  /* height: 33px; */
+  left: 1309px;
+  top: 300px;
+  color: #ffffff;
+
+  /* border: 2px solid #ffffff; */
+}
+/* drop Down */
+.dropbtn {
+  /* background-color: #4caf50; */
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 168.45px;
+  height: 37.5px;
+
+  background: #232323;
+  border-radius: 4.68775px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #232323;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 17px;
+  text-decoration: none;
+  display: inline;
+  margin-left: -30px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
